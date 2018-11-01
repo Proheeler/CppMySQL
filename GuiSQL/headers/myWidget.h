@@ -8,6 +8,7 @@
 #include <QLineEdit>
 #include <QLabel>
 #include <QTextEdit>
+#include "headers/sqlConnector.h"
 class myWidget:public QWidget
 {
     Q_OBJECT
@@ -26,7 +27,10 @@ private:
     QTextEdit *right_surname;
     QTextEdit *right_job;
     QTextEdit *resultField;
-
+    SQLConnector *conn;
+public slots:
+    void AddInfo(QString &name,QString &surname,QString &job);
+    void GetInfo();
 };
 
 #endif

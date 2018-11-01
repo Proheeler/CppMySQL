@@ -217,6 +217,33 @@ sources/myWidget.cpp.s:
 	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/sources/myWidget.cpp.s
 .PHONY : sources/myWidget.cpp.s
 
+sources/sqlConnector.o: sources/sqlConnector.cpp.o
+
+.PHONY : sources/sqlConnector.o
+
+# target to build an object file
+sources/sqlConnector.cpp.o:
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/sources/sqlConnector.cpp.o
+.PHONY : sources/sqlConnector.cpp.o
+
+sources/sqlConnector.i: sources/sqlConnector.cpp.i
+
+.PHONY : sources/sqlConnector.i
+
+# target to preprocess a source file
+sources/sqlConnector.cpp.i:
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/sources/sqlConnector.cpp.i
+.PHONY : sources/sqlConnector.cpp.i
+
+sources/sqlConnector.s: sources/sqlConnector.cpp.s
+
+.PHONY : sources/sqlConnector.s
+
+# target to generate assembly for a file
+sources/sqlConnector.cpp.s:
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/sources/sqlConnector.cpp.s
+.PHONY : sources/sqlConnector.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -236,6 +263,9 @@ help:
 	@echo "... sources/myWidget.o"
 	@echo "... sources/myWidget.i"
 	@echo "... sources/myWidget.s"
+	@echo "... sources/sqlConnector.o"
+	@echo "... sources/sqlConnector.i"
+	@echo "... sources/sqlConnector.s"
 .PHONY : help
 
 

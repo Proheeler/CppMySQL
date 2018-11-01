@@ -1,5 +1,5 @@
 #include "headers/myWidget.h"
-
+#include <QDebug>
 
 myWidget::myWidget(){
 
@@ -15,6 +15,7 @@ myWidget::myWidget(){
     right_name = new QTextEdit();
     right_surname= new QTextEdit();
     right_job = new QTextEdit();
+    resultField = new QTextEdit();
 
     rightLayout->addWidget(right_name);
     rightLayout->addWidget(right_surname);
@@ -28,11 +29,27 @@ myWidget::myWidget(){
 
     mainLayout->addLayout(leftLayout);
     mainLayout->addLayout(rightLayout);
+    mainLayout->addWidget(resultField);
 
     setLayout(mainLayout);
 
     right_job->setFixedHeight(50);
     right_name->setFixedHeight(50);
     right_surname->setFixedHeight(50);
-//    setFixedSize(500,500);
+    //    setFixedSize(500,500);
+    connect(getInfo,SIGNAL(clicked(bool)),this,SLOT(GetInfo()));
+}
+
+void myWidget::AddInfo(QString &name, QString &surname, QString &job)
+{
+
+
+}
+
+void myWidget::GetInfo()
+{
+    QString name = right_name->toPlainText();
+    qDebug()<<name;
+//    conn = new SQLConnector;
+//    conn->getInfo(name);
 }

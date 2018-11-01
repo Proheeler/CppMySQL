@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SQLApp_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/SQLApp.dir/main.cpp.o"
   "CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o"
+  "CMakeFiles/SQLApp.dir/sources/sqlConnector.cpp.o"
   "CMakeFiles/SQLApp.dir/SQLApp_autogen/mocs_compilation.cpp.o"
   "SQLApp.pdb"
   "SQLApp"
