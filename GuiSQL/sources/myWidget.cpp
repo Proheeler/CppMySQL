@@ -12,9 +12,9 @@ myWidget::myWidget(){
     left_name = new QLabel("Name");
     left_surname= new QLabel("Surname");
     left_job = new QLabel("Job");
-    right_name = new QLabel("Name");
-    right_surname= new QLabel("Surname");
-    right_job = new QLabel("Job");
+    right_name = new QTextEdit();
+    right_surname= new QTextEdit();
+    right_job = new QTextEdit();
 
     rightLayout->addWidget(right_name);
     rightLayout->addWidget(right_surname);
@@ -30,5 +30,9 @@ myWidget::myWidget(){
     mainLayout->addLayout(rightLayout);
 
     setLayout(mainLayout);
-    setFixedSize(500,500);
+
+    right_job->setFixedHeight(50);
+    right_name->setFixedHeight(50);
+    right_surname->setFixedHeight(50);
+//    setFixedSize(500,500);
 }

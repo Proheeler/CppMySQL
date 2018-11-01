@@ -22,9 +22,10 @@ private:
     QLabel *left_name;
     QLabel *left_surname;
     QLabel *left_job;
-    QLabel *right_name;
-    QLabel *right_surname;
-    QLabel *right_job;
+    QTextEdit *right_name;
+    QTextEdit *right_surname;
+    QTextEdit *right_job;
+    QTextEdit *resultField;
 
 };
 
