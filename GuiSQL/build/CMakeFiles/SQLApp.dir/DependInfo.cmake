@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/SQLApp_autogen/mocs_compilation.cpp" "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/CMakeFiles/SQLApp.dir/SQLApp_autogen/mocs_compilation.cpp.o"
   "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/main.cpp" "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/CMakeFiles/SQLApp.dir/main.cpp.o"
+  "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/sources/myWidget.cpp" "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

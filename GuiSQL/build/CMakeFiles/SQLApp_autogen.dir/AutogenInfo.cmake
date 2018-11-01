@@ -10,8 +10,8 @@ set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/SQLApp_autogen")
 set(AM_INCLUDE_DIR "include")
 # Files
-set(AM_SOURCES "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/main.cpp")
-set(AM_HEADERS "")
+set(AM_SOURCES "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/main.cpp;/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/sources/myWidget.cpp")
+set(AM_HEADERS "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/headers/myWidget.h")
 set(AM_SETTINGS_FILE "/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/CMakeFiles/SQLApp_autogen.dir/AutogenOldSettings.txt")
 # Qt
 set(AM_QT_VERSION_MAJOR "5")

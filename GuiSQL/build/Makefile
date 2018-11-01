@@ -190,6 +190,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sources/myWidget.o: sources/myWidget.cpp.o
+
+.PHONY : sources/myWidget.o
+
+# target to build an object file
+sources/myWidget.cpp.o:
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o
+.PHONY : sources/myWidget.cpp.o
+
+sources/myWidget.i: sources/myWidget.cpp.i
+
+.PHONY : sources/myWidget.i
+
+# target to preprocess a source file
+sources/myWidget.cpp.i:
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/sources/myWidget.cpp.i
+.PHONY : sources/myWidget.cpp.i
+
+sources/myWidget.s: sources/myWidget.cpp.s
+
+.PHONY : sources/myWidget.s
+
+# target to generate assembly for a file
+sources/myWidget.cpp.s:
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/sources/myWidget.cpp.s
+.PHONY : sources/myWidget.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,6 +233,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sources/myWidget.o"
+	@echo "... sources/myWidget.i"
+	@echo "... sources/myWidget.s"
 .PHONY : help
 
 

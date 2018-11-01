@@ -8,11 +8,11 @@
 #include <exception>
 
 #include <QApplication>
-#include <QWidget>
+#include "headers/myWidget.h"
 int main (int argc, char* argv[])
 {
     QApplication a(argc, argv);
-    QWidget w;
+    myWidget w;
     w.show();
 
     return a.exec();
