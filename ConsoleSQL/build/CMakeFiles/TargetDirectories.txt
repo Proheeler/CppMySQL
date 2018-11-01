@@ -1,0 +1,3 @@
+/home/vicheslav/Cppdev/Boost_variant/build/CMakeFiles/edit_cache.dir
+/home/vicheslav/Cppdev/Boost_variant/build/CMakeFiles/rebuild_cache.dir
+/home/vicheslav/Cppdev/Boost_variant/build/CMakeFiles/Boost_variant.dir

@@ -1,0 +1,1 @@
+/usr/bin/g++   -std=c++11  -rdynamic CMakeFiles/Boost_variant.dir/main.cpp.o  -o Boost_variant  -L/home/vicheslav/Cppdev/Boost_variant -Wl,-rpath,/home/vicheslav/Cppdev/Boost_variant -lboost_program_options -lmysqlclient 
