@@ -48,10 +48,10 @@ RM = /home/vicheslav/Загрузки/cmake-3.12.1-Linux-x86_64/bin/cmake -E rem
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vicheslav/Cppdev/Boost_variant
+CMAKE_SOURCE_DIR = /home/vicheslav/DEV/Cppdev/SQL/ConsoleSQL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vicheslav/Cppdev/Boost_variant/build
+CMAKE_BINARY_DIR = /home/vicheslav/DEV/Cppdev/SQL/ConsoleSQL/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vicheslav/Cppdev/Boost_variant/build/CMakeFiles /home/vicheslav/Cppdev/Boost_variant/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vicheslav/DEV/Cppdev/SQL/ConsoleSQL/build/CMakeFiles /home/vicheslav/DEV/Cppdev/SQL/ConsoleSQL/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vicheslav/Cppdev/Boost_variant/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vicheslav/DEV/Cppdev/SQL/ConsoleSQL/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Boost_variant
+# Target rules for targets named SQLApp
 
 # Build rule for target.
-Boost_variant: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Boost_variant
-.PHONY : Boost_variant
+SQLApp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SQLApp
+.PHONY : SQLApp
 
 # fast build rule for target.
-Boost_variant/fast:
-	$(MAKE) -f CMakeFiles/Boost_variant.dir/build.make CMakeFiles/Boost_variant.dir/build
-.PHONY : Boost_variant/fast
+SQLApp/fast:
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/build
+.PHONY : SQLApp/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Boost_variant.dir/build.make CMakeFiles/Boost_variant.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Boost_variant.dir/build.make CMakeFiles/Boost_variant.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Boost_variant.dir/build.make CMakeFiles/Boost_variant.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/SQLApp.dir/build.make CMakeFiles/SQLApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Boost_variant"
+	@echo "... SQLApp"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

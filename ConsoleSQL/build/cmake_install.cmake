@@ -1,4 +1,4 @@
-# Install script for directory: /home/vicheslav/Cppdev/Boost_variant
+# Install script for directory: /home/vicheslav/DEV/Cppdev/SQL/ConsoleSQL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vicheslav/Cppdev/Boost_variant/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vicheslav/DEV/Cppdev/SQL/ConsoleSQL/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

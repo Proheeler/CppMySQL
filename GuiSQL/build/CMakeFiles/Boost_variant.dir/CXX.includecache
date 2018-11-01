@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vicheslav/Cppdev/Boost_variant/main.cpp
+iostream
+-
+boost/variant.hpp
+-
+boost/any.hpp
+-
+vector
+-
+stdlib.h
+-
+mysql/mysql.h
+-
+string.h
+-
+exception
+-
+

@@ -6,8 +6,10 @@
 #include <mysql/mysql.h>
 #include <string.h>
 #include <exception>
+
 int main (int argc, char* argv[])
 {
+
    MYSQL*     conn;
    MYSQL_RES* res;
    MYSQL_ROW  row;

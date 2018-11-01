@@ -1,0 +1,4 @@
+/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/CMakeFiles/edit_cache.dir
+/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/CMakeFiles/rebuild_cache.dir
+/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/CMakeFiles/SQLApp.dir
+/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/CMakeFiles/SQLApp_autogen.dir
