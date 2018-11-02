@@ -1,43 +1,32 @@
 #include "headers/sqlConnector.h"
 #include <QString>
-
+#include <QDebug>
+#include <QSqlQuery>
 SQLConnector::SQLConnector()
 {
 
-    conn = mysql_init(NULL);
- /* Connect to database */
-    if (!mysql_real_connect(conn, server, user, password, database, 0, NULL, 0))
-    {
-       std::cout<<mysql_error(conn)<<std::endl;
-       exit(1);
-    }
+    db = QSqlDatabase::addDatabase("QMYSQL");
+    db.setHostName(server);
+    db.setDatabaseName(database);
+    db.setUserName(user);
+    db.setPassword(password);
+    bool ok = db.open();
+    qDebug()<<ok;
+
 }
 
-std::string SQLConnector::getInfo()
+void SQLConnector::getInfo()
 {
-
-//    if (mysql_query(conn, request))
-//        {
-//            std::cout<<mysql_error(conn)<<std::endl;
-//            exit(1);
-//        }
-
-//        res = mysql_use_result(conn);
-
-//        /* output table name */
-//        printf("Result of request:\n");
-//            while ((row = mysql_fetch_row(res)) != NULL)
-//            {
-//                      printf("%s \n", row[0]);
-////                some_values1.push_back(row[0]);
-//            }
-////            for(auto i:some_values1){
-////                std::cout<<i<<std::endl;
-////            }
+    QSqlQuery query(db);
+    query.exec("SHOW TABLES");
+//    qDebug()<<query.executedQuery();
+    while (query.next()) {
+        QString country = query.value(0).toString();
+         qDebug()<<country;
+    }
  }
 
 SQLConnector::~SQLConnector()
 {
-    mysql_free_result(res);
-    mysql_close(conn);
+
 }

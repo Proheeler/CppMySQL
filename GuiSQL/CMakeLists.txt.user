@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.6.0, 2018-11-01T10:49:15. -->
+<!-- Written by QtCreator 4.6.0, 2018-11-02T09:49:06. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -211,7 +211,7 @@
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguation.Title">SQLApp</value>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.Arguments"></value>
     <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory"></value>
-    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="QString" key="CMakeProjectManager.CMakeRunConfiguration.UserWorkingDirectory.default">/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build</value>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">SQLApp</value>

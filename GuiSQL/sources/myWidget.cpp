@@ -48,8 +48,7 @@ void myWidget::AddInfo(QString &name, QString &surname, QString &job)
 
 void myWidget::GetInfo()
 {
-    QString name = right_name->toPlainText();
-    qDebug()<<name;
-//    conn = new SQLConnector;
-//    conn->getInfo(name);
+    conn = new SQLConnector;
+    conn->getInfo();
+    delete conn;
 }

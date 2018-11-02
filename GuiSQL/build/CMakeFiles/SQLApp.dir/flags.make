@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_FLAGS =   -fPIC -std=gnu++11
 
-CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build -I/home/vicheslav/DEV/Cppdev/SQL/GuiSQL -I/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/SQLApp_autogen/include -I/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/usr/lib/mysql -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ 
+CXX_INCLUDES = -I/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build -I/home/vicheslav/DEV/Cppdev/SQL/GuiSQL -I/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/build/SQLApp_autogen/include -I/home/vicheslav/DEV/Cppdev/SQL/GuiSQL/usr/lib/mysql -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSql 
 

@@ -29,6 +29,9 @@ include_DIRECTORIES(usr/lib/mysql/)
  set(CMAKE_CXX_FLAGS "${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 
 
+ find_package(Qt5Sql REQUIRED)
+
+
  file(GLOB SOURCES
      headers/*.h
      sources/*.cpp
@@ -36,7 +39,8 @@ include_DIRECTORIES(usr/lib/mysql/)
 
 
 add_executable(SQLApp  ${SRC} "main.cpp" ${SOURCES})
-TARGET_LINK_LIBRARIES(SQLApp PUBLIC ${Boost_LIBRARIES} mysqlclient ${Qt5Widgets_LIBRARIES})#
+TARGET_LINK_LIBRARIES(SQLApp PUBLIC ${Boost_LIBRARIES} mysqlclient
+                        ${Qt5Widgets_LIBRARIES} Qt5::Sql)#
 
 
 

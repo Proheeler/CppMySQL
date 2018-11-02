@@ -126,6 +126,7 @@ SQLApp: CMakeFiles/SQLApp.dir/SQLApp_autogen/mocs_compilation.cpp.o
 SQLApp: CMakeFiles/SQLApp.dir/build.make
 SQLApp: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 SQLApp: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
+SQLApp: /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.9.5
 SQLApp: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 SQLApp: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 SQLApp: CMakeFiles/SQLApp.dir/link.txt

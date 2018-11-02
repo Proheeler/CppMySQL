@@ -4,18 +4,19 @@
 #include <stdlib.h>
 #include <mysql/mysql.h>
 #include <iostream>
+#include <QtSql/QSqlDatabase>
 class SQLConnector{
 public:
     SQLConnector();
-    std::string getInfo();
+    void getInfo();
     ~SQLConnector();
 
 
 private:
-    MYSQL*     conn;
-    MYSQL_RES* res;
-    MYSQL_ROW  row;
-
+//    MYSQL*     conn;
+//    MYSQL_RES* res;
+//    MYSQL_ROW  row;
+    QSqlDatabase db;
     const char* server   = "127.0.0.1";
     const char* user     = "root";
     const char* password = "mysql"; /* set me first */
