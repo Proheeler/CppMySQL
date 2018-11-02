@@ -18,7 +18,10 @@ private:
     QPushButton *getInfo;
     QPushButton *addInfo;
     QHBoxLayout *mainLayout;
+    QHBoxLayout *mainLayout2;
     QVBoxLayout *leftLayout;
+    QVBoxLayout *middleLayout;
+    QVBoxLayout *middleLayout2;
     QVBoxLayout *rightLayout;
     QLabel *left_name;
     QLabel *left_surname;
@@ -27,6 +30,7 @@ private:
     QTextEdit *right_surname;
     QTextEdit *right_job;
     QTextEdit *resultField;
+    QTextEdit *reqField;
     SQLConnector *conn;
 public slots:
     void AddInfo(QString &name,QString &surname,QString &job);

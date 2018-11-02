@@ -376,7 +376,9 @@ CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlDatabase
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlQuery
  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h
+ /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h
  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel

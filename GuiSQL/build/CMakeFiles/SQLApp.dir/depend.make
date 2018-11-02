@@ -375,7 +375,9 @@ CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/
 CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
 CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlDatabase
+CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/QSqlQuery
 CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqldatabase.h
+CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlquery.h
 CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlglobal.h
 CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 CMakeFiles/SQLApp.dir/sources/myWidget.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel

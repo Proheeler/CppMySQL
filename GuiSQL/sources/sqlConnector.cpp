@@ -15,18 +15,14 @@ SQLConnector::SQLConnector()
 
 }
 
-void SQLConnector::getInfo()
+ QSqlQuery SQLConnector::getInfo(QString &req)
 {
     QSqlQuery query(db);
-    query.exec("SHOW TABLES");
-//    qDebug()<<query.executedQuery();
-    while (query.next()) {
-        QString country = query.value(0).toString();
-         qDebug()<<country;
-    }
+    query.exec(req);
+    return query;
  }
 
 SQLConnector::~SQLConnector()
 {
-
+    db.close();
 }

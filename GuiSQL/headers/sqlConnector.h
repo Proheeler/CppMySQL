@@ -8,7 +8,7 @@
 class SQLConnector{
 public:
     SQLConnector();
-    void getInfo();
+    QSqlQuery getInfo(QString&);
     ~SQLConnector();
 
 
